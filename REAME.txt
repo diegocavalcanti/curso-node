@@ -1,0 +1,9 @@
+
+npm install typescript ts-node --save-dev
+npx tsc -init (iniciar arquivo configuracao typescript )
+npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
+npx eslint -init (iniciar arquivo eslint)
+npm set strict-ssl false (desativar ssl)
+npm run build (compilar)
+npm run lint (verificar sintaxe)
+npm start (executar)
